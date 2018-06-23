@@ -1,0 +1,24 @@
+{
+  "name": "@machinomy/types-ganache-core",
+  "version": "0.0.1",
+  "description": "TypeScript declaration for ganache-core package",
+  "main": "index.d.js",
+  "types": "index.d.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/machinomy/types-ganache-core.git"
+  },
+  "author": "Sergey Ukustov <sergey.ukustov@machinomy.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/machinomy/types-ganache-core/issues"
+  },
+  "homepage": "https://github.com/machinomy/types-ganache-core#readme",
+  "peerDependencies": {
+    "ganache-core": "^2.1.0",
+    "web3": "^0.20.0"
+  },
+  "dependencies": {
+    "@machinomy/types-web3": "^0.0.12"
+  }
+}
